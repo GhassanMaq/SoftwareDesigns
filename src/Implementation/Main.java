@@ -15,7 +15,6 @@ public class Main {
         ReportGenerator budgetReport = new BudgetReportGenerator(director);
         ReportGenerator staffReport1 = new StaffReportGenerator(manager);
         ReportGenerator budgetReport1 = new BudgetReportGenerator(manager);
-
         System.out.println(staffReport.generateReport());
         System.out.println(budgetReport.generateReport());
         System.out.println(budgetReport1.generateReport());
